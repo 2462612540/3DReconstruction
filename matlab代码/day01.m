@@ -84,9 +84,13 @@ ceil2=ceil(-4.4);
 fushu=3+4i;
 reall1=real(fushu); %求解的是复数的实部
 imag1=imag(fushu);%求解的是复数的虚部
-abs1=abs(fushu)
-angle1=ang
+abs1=abs(fushu); %求解复数的模长
+angle1=angle(fushu);%求解复数的角度
 
+gonge=conj(fushul) ;%求它的共辄复数
+
+fushuduo=complex(1:3,2:4);
+imageduo=imag(fushuduo);
 
 
 
